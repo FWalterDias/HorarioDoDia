@@ -6,7 +6,7 @@ function carregar (){
     
     
     if(hora >= 0 && hora < 6){
-        msg.innerHTML = `Bom note! Agora são ${hora} horas da Madrugada`;
+        msg.innerHTML = `Boa noite! Agora são ${hora} horas da Madrugada`;
         document.body.style.backgroundColor = 'rgba(78, 79, 85, 0.66)'
         foto.src = "01madrugada.png";
         
@@ -21,12 +21,12 @@ function carregar (){
         foto.src = '03manha.png';
 
     }else if(hora >= 12 && hora < 18 ){
-        msg.innerHTML = `Bom tarde! Agora são ${hora} horas da Tarde`;
+        msg.innerHTML = `Boa tarde! Agora são ${hora} horas da Tarde`;
         document.body.style.backgroundColor = 'rgba(248, 194, 29, 0.67)'
         foto.src = '04tarde.png';
 
     } else if(hora >= 18 && hora < 24){
-        msg.innerHTML = `Bom note! Agora são ${hora} horas da Noite`;
+        msg.innerHTML = `Boa noite! Agora são ${hora} horas da Noite`;
         document.body.style.backgroundColor = 'rgba(108, 106, 100, 0.79)'
         foto.src = '06noite.png';
     }
